@@ -14,6 +14,7 @@ public class FunRestController {
     }
     @GetMapping("/")
     public String homePage(){
-        return "Hello, I'm hosted in github!";
+        return "Hello, I'm hosted in github comminting to check in jenkins!";
     }
+    
 }
